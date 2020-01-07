@@ -23,6 +23,8 @@ show ip arp
 
 # 2. Go into configure mode
 conf t
+#(optional) You may need to use this command to first enable configure mode in some routers
+enable
 
 # 3. Use the Vlan name as you see it from step 1 above
 interface Vlan1
